@@ -37,7 +37,7 @@ MIT, Tsinghua University, Adobe Research, CMU<br>
 
 *Overview of DiffAugment for updating D (left) and G (right). DiffAugment applies the augmentation T to both the real sample x and the generated output G(z). When we update G, gradients need to be back-propagated through T (iii), which requires T to be differentiable w.r.t. the input.*
 
-## Training and Generation with 100 Images [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/zsyzzsoft/5fbb71b9bf9a3217576bebae5de46fc2/data-efficient-gans.ipynb)
+## Training and Generation with 100 Images [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/zsyzzsoft/5fbb71b9bf9a3217576bebae5de46fc2/data-efficient-gans.ipynb)[![](https://colab.research.google.com/assets/colab-badge.svg)]
 
 To generate an interpolation video using our pre-trained models:
 
